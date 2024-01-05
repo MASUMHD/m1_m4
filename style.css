@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.tiger{
+    background-image: url(./img/Tiger\ backgrond.jpg);
+    height: 80vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+.name{
+    color:aliceblue;
+    padding-top: 300px;
+    margin-left: 100px;
+    font-size: 100px;
+    font-weight: 900px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.at , .imgtiger{
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    margin: 50px auto;
+    border-width: 15px ;
+    border-color: rgb(93, 247, 116);
+    border-style: groove;
+    background: linear-gradient(45deg ,pink, rgb(106, 191, 241));
+    padding: 30px;
+    box-shadow: 20px 15px 15px rgba(229, 93, 238, 0.774);
+}
+
+.at h2, #hi{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    
+    border-style: ridge;
+    border-width: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(39, 78, 222);
+    padding-bottom: 20px;
+
+    margin-bottom: 20px;
+}
+.at p ,.md{
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 2em;
+
+
+}
+.at p span strong{
+    color: rgb(0, 0, 0);
+    border: 2px solid orangered;
+}
+.imgtiger img{
+    height: 500px;
+    width: 550px;
+}
+.md{
+    border: 2px solid black;
+    padding: 50px;
+    height: 400px;
+    width: 450px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: -505px;
+   
+
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: rgb(253, 101, 13);
+    border-radius: 5px;
+    margin-left: 250px;
+    box-shadow: 6px 6px 6px rgb(36, 34, 35);
+}  
+button:hover{
+background-color: green;
+border: 5px solid red;
+border-radius: 20px;
+}
+.gg{
+    margin-top: 30px;
+}
+
