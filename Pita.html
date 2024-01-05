@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 3px solid rgb(7, 7, 7);
+        }
+        main{
+            background-color:rgb(28, 249, 175);
+            border: 8px groove rgb(47, 146, 245);
+            padding: 20px;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+        .fill{
+            font-size: 40px;
+            margin-top: -2px;
+        }
+        .rb{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            background-color: rgb(253, 101, 13);
+            border-radius: 5px;
+            margin-left: 150px;
+            margin-top: 15px;
+            box-shadow: 4px 4px 4px rgb(15, 15, 15);
+        }
+        .rb:hover{
+        background-color: green;
+        border: 2px solid red;
+        border-radius: 20px;
+        }
+
+        .sb{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            background-color: rgb(253, 101, 13);
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-top: 15px;
+            box-shadow: 4px 4px 4px rgb(19, 19, 19);
+
+        }
+        .sb:hover{
+        background-color: green;
+        border: 2px solid red;
+        border-radius: 20px;
+        }
+
+
+        footer{
+        text-align: center;
+        color: azure;
+        
+        background-color: rgb(80, 64, 64);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pita.html">Forme</a></li>
+                <li><a href="masum.html"></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h2 class="fill">
+                Please fill up the Forme...
+            </h2>
+            <form action="">
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="Your email" id="email" placeholder="Your Email">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="text" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>
+                        Pic One Pitha
+                    </legend>
+                    <label for="chitoy">
+                        <input type="radio" name="Pitha" id="Cjitoy">Citoy
+                    </label>
+                    <label for="Vapa">
+                        <input type="radio" name="Pitha" id="Vapa">Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="Pitha" id="Puri">Puri
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Pick one or more vorta
+                    </legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="sorisa">Shutki
+                    </label>
+                    <label for="chill">
+                        <input type="checkbox" name="vorta" id="sorisa">Chill
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Specil Instruction
+                    </legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input class="rb" type="reset" value="Reset">
+                <input class="sb" type="submit" value="Submit">
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>
+            <small>
+                &copy; 2024. All Rights rescerved
+            </small>
+        </p>
+    </footer>
+</body>
+</html>

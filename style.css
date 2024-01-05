@@ -29,7 +29,7 @@
     border-width: 15px ;
     border-color: rgb(93, 247, 116);
     border-style: groove;
-    background: linear-gradient(45deg ,pink, rgb(106, 191, 241));
+    background: linear-gradient(45deg ,rgb(225, 237, 92), rgb(106, 191, 241));
     padding: 30px;
     box-shadow: 20px 15px 15px rgba(229, 93, 238, 0.774);
 }
@@ -90,5 +90,11 @@ border-radius: 20px;
 }
 .gg{
     margin-top: 30px;
+}
+footer{
+    text-align: center;
+    color: azure;
+    padding: 10px;
+    background-color: rgb(80, 64, 64);
 }
 
